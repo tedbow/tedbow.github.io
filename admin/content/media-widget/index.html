@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/core/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Media | Ted Bowman</title>
+    <style media="all">
+@import url("/core/assets/vendor/normalize-css/normalize.css?pdy3r7");
+@import url("/core/misc/normalize-fixes.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/ajax-progress.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/align.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/autocomplete-loading.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/fieldgroup.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/container-inline.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/clearfix.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/details.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/hidden.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/item-list.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/js.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/nowrap.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/position-container.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/progress.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/reset-appearance.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/resize.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/sticky-header.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/system-status-counter.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/system-status-report-counters.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/system-status-report-general-info.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/tabledrag.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/tablesort.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/components/tree-child.module.css?pdy3r7");
+@import url("/core/themes/stable/css/views/views.module.css?pdy3r7");
+@import url("/core/modules/media_library/css/media_library.module.css?pdy3r7");
+@import url("/core/themes/stable/css/system/system.admin.css?pdy3r7");
+@import url("/core/modules/media_library/css/media_library.theme.css?pdy3r7");
+</style>
+<style media="all">
+@import url("/themes/contrib/bootstrap_business/bootstrap/css/bootstrap.min.css?pdy3r7");
+</style>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="all" />
+<style media="all">
+@import url("/themes/contrib/bootstrap_business/css/base/style.css?pdy3r7");
+@import url("/themes/contrib/bootstrap_business/css/base/colors.css?pdy3r7");
+@import url("/themes/contrib/bootstrap_business/css/base/local.css?pdy3r7");
+@import url("/core/themes/classy/css/components/action-links.css?pdy3r7");
+@import url("/core/themes/classy/css/components/breadcrumb.css?pdy3r7");
+@import url("/core/themes/classy/css/components/button.css?pdy3r7");
+@import url("/core/themes/classy/css/components/collapse-processed.css?pdy3r7");
+@import url("/core/themes/classy/css/components/container-inline.css?pdy3r7");
+@import url("/core/themes/classy/css/components/details.css?pdy3r7");
+@import url("/core/themes/classy/css/components/exposed-filters.css?pdy3r7");
+@import url("/core/themes/classy/css/components/field.css?pdy3r7");
+@import url("/core/themes/classy/css/components/form.css?pdy3r7");
+@import url("/core/themes/classy/css/components/icons.css?pdy3r7");
+@import url("/core/themes/classy/css/components/inline-form.css?pdy3r7");
+@import url("/core/themes/classy/css/components/item-list.css?pdy3r7");
+@import url("/core/themes/classy/css/components/link.css?pdy3r7");
+@import url("/core/themes/classy/css/components/links.css?pdy3r7");
+@import url("/core/themes/classy/css/components/menu.css?pdy3r7");
+@import url("/core/themes/classy/css/components/more-link.css?pdy3r7");
+@import url("/core/themes/classy/css/components/pager.css?pdy3r7");
+@import url("/core/themes/classy/css/components/tabledrag.css?pdy3r7");
+@import url("/core/themes/classy/css/components/tableselect.css?pdy3r7");
+@import url("/core/themes/classy/css/components/tablesort.css?pdy3r7");
+@import url("/core/themes/classy/css/components/tabs.css?pdy3r7");
+@import url("/core/themes/classy/css/components/textarea.css?pdy3r7");
+@import url("/core/themes/classy/css/components/ui-dialog.css?pdy3r7");
+@import url("/core/themes/classy/css/components/messages.css?pdy3r7");
+@import url("/core/themes/classy/css/components/progress.css?pdy3r7");
+@import url("/themes/contrib/bootstrap_business/css/components/primary-menu.css?pdy3r7");
+@import url("/themes/contrib/bootstrap_business/css/components/to-top.css?pdy3r7");
+@import url("/themes/custom/tedbow_theme/css/style.css?pdy3r7");
+</style>
+
+    
+<!--[if lte IE 8]>
+<script src="/core/assets/vendor/html5shiv/html5shiv.min.js?v=3.7.3"></script>
+<![endif]-->
+
+  </head>
+  <body class="path-admin">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="toTop"><span class="glyphicon glyphicon-chevron-up"></span></div>
+
+<!-- #pre-header -->
+<div id="pre-header" class="clearfix">
+    <div class="container">
+
+        <!-- #pre-header-inside -->
+        <div id="pre-header-inside" class="clearfix">
+            <div class="row">
+                <div class="col-md-4">
+                                        <div class="pre-header-area">
+                      <div class="region region-pre-header-first">
+    <div id="block-tedbow-theme-breadcrumbs" class="settings-tray-editable block block-system block-system-breadcrumb-block" data-drupal-settingstray="editable">
+  
+    
+      <div class="content">
+        <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol>
+          <li>
+                  <a href="/">Home</a>
+              </li>
+        </ol>
+  </nav>
+
+    </div>
+  </div>
+<div id="block-tedbow-theme-powered" class="settings-tray-editable block block-system block-system-powered-by-block" data-drupal-settingstray="editable" role="complementary">
+  
+    
+      <div class="content">
+      <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>
+    </div>
+  </div>
+<nav role="navigation" aria-labelledby="block-tedbow-theme-main-menu-menu" id="block-tedbow-theme-main-menu" class="settings-tray-editable block block-menu navigation menu--main" data-drupal-settingstray="editable">
+            
+  <h2 class="visually-hidden" id="block-tedbow-theme-main-menu-menu">Main navigation</h2>
+  
+
+      <div class="content">
+        <div class="menu-toggle-target menu-toggle-target-show" id="show-block-tedbow-theme-main-menu"></div>
+    <div class="menu-toggle-target" id="hide-block-tedbow-theme-main-menu"></div>
+    <a class="menu-toggle" href="#show-block-tedbow-theme-main-menu">Show &mdash; Main navigation</a>
+    <a class="menu-toggle menu-toggle--hide" href="#hide-block-tedbow-theme-main-menu">Hide &mdash; Main navigation</a>
+    
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+</nav>
+<nav role="navigation" aria-labelledby="block-tedbow-theme-account-menu-menu" id="block-tedbow-theme-account-menu" class="settings-tray-editable block block-menu navigation menu--account" data-drupal-settingstray="editable">
+            
+  <h2 class="visually-hidden" id="block-tedbow-theme-account-menu-menu">User account menu</h2>
+  
+
+      <div class="content">
+        <div class="menu-toggle-target menu-toggle-target-show" id="show-block-tedbow-theme-account-menu"></div>
+    <div class="menu-toggle-target" id="hide-block-tedbow-theme-account-menu"></div>
+    <a class="menu-toggle" href="#show-block-tedbow-theme-account-menu">Show &mdash; User account menu</a>
+    <a class="menu-toggle menu-toggle--hide" href="#hide-block-tedbow-theme-account-menu">Hide &mdash; User account menu</a>
+    
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/user/login" data-drupal-link-system-path="user/login">Log in</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+</nav>
+
+  </div>
+
+                    </div>
+                                    </div>
+
+                <div class="col-md-4">
+                                    </div>
+
+                <div class="col-md-4">
+                                    </div>
+            </div>
+        </div>
+        <!-- EOF: #pre-header-inside -->
+
+    </div>
+    <div class="toggle-control"><a href="javascript:showPreHeader()"><span class="glyphicon glyphicon-plus"></span></a></div>
+</div>
+<!-- EOF: #pre-header -->
+
+
+<!-- header -->
+<header id="header" role="banner" class="clearfix" style="background-image: url('/themes/custom/tedbow_theme/images/background-header.jpg')">
+    <div class="container">
+
+        <!-- #header-inside -->
+        <div id="header-inside" class="clearfix">
+            <div class="row">
+                <div class="col-md-12">
+                      <div class="region region-header">
+    <div id="block-tedbow-theme-branding" class="settings-tray-editable site-branding block block-system block-system-branding-block" data-drupal-settingstray="editable">
+  
+    
+        <a id="logo" href="/" title="Home" rel="home" class="site-branding__logo">
+      <img src="/themes/custom/tedbow_theme/logo.svg" alt="Home" />
+    </a>
+        <div class="site-branding__text">
+              <div id="site-name" class="site-branding__name">
+          <a href="/" title="Home" rel="home">Ted Bowman</a>
+        </div>
+                </div>
+  </div>
+
+  </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- EOF: #header-inside -->
+
+    </div>
+</header>
+<!-- EOF: #header -->
+
+<!-- #main-navigation -->
+<div id="main-navigation" class="clearfix">
+    <div class="container">
+
+        <!-- #main-navigation-inside -->
+        <div id="main-navigation-inside" class="clearfix">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav role="navigation" class="clearfix">
+                                                                                                </nav>
+                </div>
+            </div>
+        </div>
+        <!-- EOF: #main-navigation-inside -->
+
+    </div>
+</div>
+<!-- EOF: #main-navigation -->
+
+
+<!-- #page -->
+<div id="page" class="clearfix">
+        <!-- #top-content -->
+    <div id="top-content" class="clearfix">
+        <div class="container">
+
+            <!-- #top-content-inside -->
+            <div id="top-content-inside" class="clearfix">
+                <div class="row">
+                    <div class="col-md-12">
+                      <div class="region region-highlighted">
+    
+
+  </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- EOF:#top-content-inside -->
+
+        </div>
+    </div>
+    <!-- EOF: #top-content -->
+    
+    <!-- #main-content -->
+    <div id="main-content">
+        <div class="container">
+
+            <div class="row">
+                
+                <section class="col-md-12">
+
+                    <!-- #main -->
+                    <div id="main" class="clearfix">
+
+                        <!-- #breadcrumb -->
+                        <div id="breadcrumb" class="clearfix">
+                            <!-- #breadcrumb-inside -->
+                            <div id="breadcrumb-inside" class="clearfix">
+                            
+                            </div>
+                            <!-- EOF: #breadcrumb-inside -->
+                        </div>
+                        <!-- EOF: #breadcrumb -->
+
+                        
+                        <!-- EOF:#content-wrapper -->
+                        <div id="content-wrapper">
+
+                                                              <div class="region region-content">
+    <div id="block-pagetitle" class="block block-core block-page-title-block">
+  
+    
+      <div class="content">
+      
+  <h1 class="page-title">Media</h1>
+
+
+    </div>
+  </div>
+<div id="block-tedbow-theme-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      <div class="views-element-container"><div class="media-library-view js-media-library-view view view-media-library view-id-media_library view-display-id-widget js-view-dom-id-358addc8cee415c05600a46fec0d467f29ffbd77c8707f8454764742c7b6090b">
+  
+    
+        <div class="view-filters">
+      <form class="views-exposed-form" data-drupal-selector="views-exposed-form-media-library-widget" action="/admin/content/media-widget" method="get" id="views-exposed-form-media-library-widget" accept-charset="UTF-8">
+  <div class="form--inline clearfix">
+  <div class="js-form-item form-item js-form-type-select form-type-select js-form-item-status form-item-status">
+      <label for="edit-status">Published</label>
+        <select data-drupal-selector="edit-status" id="edit-status" name="status" class="form-select"><option value="All" selected="selected">- Any -</option><option value="1">Published</option><option value="2">Unpublished</option></select>
+        </div>
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-name form-item-name">
+      <label for="edit-name">Name</label>
+        <input data-drupal-selector="edit-name" type="text" id="edit-name" name="name" value="" size="30" maxlength="128" class="form-text" />
+
+        </div>
+<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-type form-item-type">
+      <label for="edit-type">Media type</label>
+        <select data-drupal-selector="edit-type" id="edit-type" name="type" class="form-select"><option value="All" selected="selected">- Any -</option><option value="audio">Audio</option><option value="file">File</option><option value="image">Image</option><option value="remote_video">Remote video</option><option value="video">Video</option></select>
+        </div>
+<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-sort-by form-item-sort-by">
+      <label for="edit-sort-by">Sort by</label>
+        <select data-drupal-selector="edit-sort-by" id="edit-sort-by" name="sort_by" class="form-select"><option value="created" selected="selected">Newest first</option><option value="name">Name (A-Z)</option><option value="name_1">Name (Z-A)</option></select>
+        </div>
+<div data-drupal-selector="edit-actions" class="media-library-view--form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-media-library" type="submit" id="edit-submit-media-library" value="Apply Filters" class="button js-form-submit form-submit" />
+</div>
+
+</div>
+
+</form>
+
+    </div>
+    
+      <div class="view-content">
+      <div class="views-form"><form data-drupal-selector="views-form-media-library-widget" class="media-library-views-form" action="/admin/content/media-widget" method="post" id="views-form-media-library-widget" accept-charset="UTF-8">
+      <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0067_37526537062_o_0.jpg?itok=Q7YBu8AK" width="220" height="147" alt="Thumbnail" title="dsc_0067_37526537062_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/1" rel="bookmark">dsc_0067_37526537062_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-0 form-item-media-library-select-form-0 form-no-label">
+      <label for="edit-media-library-select-form-0" class="visually-hidden">Select dsc_0067_37526537062_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-0" type="checkbox" id="edit-media-library-select-form-0" name="media_library_select_form[0]" value="1" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0073_37558158141_o_0.jpg?itok=0WgtkxP6" width="220" height="190" alt="Thumbnail" title="dsc_0073_37558158141_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/2" rel="bookmark">dsc_0073_37558158141_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-1 form-item-media-library-select-form-1 form-no-label">
+      <label for="edit-media-library-select-form-1" class="visually-hidden">Select dsc_0073_37558158141_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-1" type="checkbox" id="edit-media-library-select-form-1" name="media_library_select_form[1]" value="2" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0076_37526536862_o_0.jpg?itok=zh_uLPvH" width="220" height="147" alt="Thumbnail" title="dsc_0076_37526536862_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/3" rel="bookmark">dsc_0076_37526536862_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-2 form-item-media-library-select-form-2 form-no-label">
+      <label for="edit-media-library-select-form-2" class="visually-hidden">Select dsc_0076_37526536862_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-2" type="checkbox" id="edit-media-library-select-form-2" name="media_library_select_form[2]" value="3" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0079_37558157941_o_0.jpg?itok=be5OkuGl" width="220" height="191" alt="Thumbnail" title="dsc_0079_37558157941_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/4" rel="bookmark">dsc_0079_37558157941_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-3 form-item-media-library-select-form-3 form-no-label">
+      <label for="edit-media-library-select-form-3" class="visually-hidden">Select dsc_0079_37558157941_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-3" type="checkbox" id="edit-media-library-select-form-3" name="media_library_select_form[3]" value="4" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0080_37526536712_o_0.jpg?itok=x0CNbWOB" width="182" height="220" alt="Thumbnail" title="dsc_0080_37526536712_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/5" rel="bookmark">dsc_0080_37526536712_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-4 form-item-media-library-select-form-4 form-no-label">
+      <label for="edit-media-library-select-form-4" class="visually-hidden">Select dsc_0080_37526536712_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-4" type="checkbox" id="edit-media-library-select-form-4" name="media_library_select_form[4]" value="5" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0082_37558157581_o_0.jpg?itok=7xzEpPdX" width="220" height="147" alt="Thumbnail" title="dsc_0082_37558157581_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/6" rel="bookmark">dsc_0082_37558157581_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-5 form-item-media-library-select-form-5 form-no-label">
+      <label for="edit-media-library-select-form-5" class="visually-hidden">Select dsc_0082_37558157581_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-5" type="checkbox" id="edit-media-library-select-form-5" name="media_library_select_form[5]" value="6" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0083_37526536382_o_0.jpg?itok=yv3r8s4p" width="220" height="147" alt="Thumbnail" title="dsc_0083_37526536382_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/7" rel="bookmark">dsc_0083_37526536382_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-6 form-item-media-library-select-form-6 form-no-label">
+      <label for="edit-media-library-select-form-6" class="visually-hidden">Select dsc_0083_37526536382_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-6" type="checkbox" id="edit-media-library-select-form-6" name="media_library_select_form[6]" value="7" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0095_37558157241_o_0.jpg?itok=-nwUKbyy" width="220" height="170" alt="Thumbnail" title="dsc_0095_37558157241_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/8" rel="bookmark">dsc_0095_37558157241_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-7 form-item-media-library-select-form-7 form-no-label">
+      <label for="edit-media-library-select-form-7" class="visually-hidden">Select dsc_0095_37558157241_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-7" type="checkbox" id="edit-media-library-select-form-7" name="media_library_select_form[7]" value="8" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0097_37526536202_o_0.jpg?itok=Cq_wqITb" width="220" height="147" alt="Thumbnail" title="dsc_0097_37526536202_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/9" rel="bookmark">dsc_0097_37526536202_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-8 form-item-media-library-select-form-8 form-no-label">
+      <label for="edit-media-library-select-form-8" class="visually-hidden">Select dsc_0097_37526536202_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-8" type="checkbox" id="edit-media-library-select-form-8" name="media_library_select_form[8]" value="9" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0098_36847988424_o_0.jpg?itok=Riqj8L44" width="220" height="147" alt="Thumbnail" title="dsc_0098_36847988424_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/10" rel="bookmark">dsc_0098_36847988424_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-9 form-item-media-library-select-form-9 form-no-label">
+      <label for="edit-media-library-select-form-9" class="visually-hidden">Select dsc_0098_36847988424_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-9" type="checkbox" id="edit-media-library-select-form-9" name="media_library_select_form[9]" value="10" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0099_23706072178_o_0.jpg?itok=6JvBbKgc" width="147" height="220" alt="Thumbnail" title="dsc_0099_23706072178_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/11" rel="bookmark">dsc_0099_23706072178_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-10 form-item-media-library-select-form-10 form-no-label">
+      <label for="edit-media-library-select-form-10" class="visually-hidden">Select dsc_0099_23706072178_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-10" type="checkbox" id="edit-media-library-select-form-10" name="media_library_select_form[10]" value="11" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0100_36847988144_o_0.jpg?itok=I6kKI19z" width="220" height="125" alt="Thumbnail" title="dsc_0100_36847988144_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/12" rel="bookmark">dsc_0100_36847988144_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-11 form-item-media-library-select-form-11 form-no-label">
+      <label for="edit-media-library-select-form-11" class="visually-hidden">Select dsc_0100_36847988144_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-11" type="checkbox" id="edit-media-library-select-form-11" name="media_library_select_form[11]" value="12" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0186_23706071998_o_0.jpg?itok=2PlvkoSI" width="220" height="147" alt="Thumbnail" title="dsc_0186_23706071998_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/13" rel="bookmark">dsc_0186_23706071998_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-12 form-item-media-library-select-form-12 form-no-label">
+      <label for="edit-media-library-select-form-12" class="visually-hidden">Select dsc_0186_23706071998_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-12" type="checkbox" id="edit-media-library-select-form-12" name="media_library_select_form[12]" value="13" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0189_36847988094_o_0.jpg?itok=poz4JKsr" width="220" height="147" alt="Thumbnail" title="dsc_0189_36847988094_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/14" rel="bookmark">dsc_0189_36847988094_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-13 form-item-media-library-select-form-13 form-no-label">
+      <label for="edit-media-library-select-form-13" class="visually-hidden">Select dsc_0189_36847988094_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-13" type="checkbox" id="edit-media-library-select-form-13" name="media_library_select_form[13]" value="14" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0252_36847988024_o_0.jpg?itok=fYHpp_6f" width="220" height="147" alt="Thumbnail" title="dsc_0252_36847988024_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/15" rel="bookmark">dsc_0252_36847988024_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-14 form-item-media-library-select-form-14 form-no-label">
+      <label for="edit-media-library-select-form-14" class="visually-hidden">Select dsc_0252_36847988024_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-14" type="checkbox" id="edit-media-library-select-form-14" name="media_library_select_form[14]" value="15" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0253_23706071738_o_0.jpg?itok=7Q4WTVpg" width="220" height="147" alt="Thumbnail" title="dsc_0253_23706071738_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/16" rel="bookmark">dsc_0253_23706071738_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-15 form-item-media-library-select-form-15 form-no-label">
+      <label for="edit-media-library-select-form-15" class="visually-hidden">Select dsc_0253_23706071738_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-15" type="checkbox" id="edit-media-library-select-form-15" name="media_library_select_form[15]" value="16" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0320_37558156031_o_0.jpg?itok=JYPDgDvQ" width="220" height="147" alt="Thumbnail" title="dsc_0320_37558156031_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/17" rel="bookmark">dsc_0320_37558156031_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-16 form-item-media-library-select-form-16 form-no-label">
+      <label for="edit-media-library-select-form-16" class="visually-hidden">Select dsc_0320_37558156031_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-16" type="checkbox" id="edit-media-library-select-form-16" name="media_library_select_form[16]" value="17" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0322_23706071498_o_0.jpg?itok=k8kluAl0" width="220" height="147" alt="Thumbnail" title="dsc_0322_23706071498_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/18" rel="bookmark">dsc_0322_23706071498_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-17 form-item-media-library-select-form-17 form-no-label">
+      <label for="edit-media-library-select-form-17" class="visually-hidden">Select dsc_0322_23706071498_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-17" type="checkbox" id="edit-media-library-select-form-17" name="media_library_select_form[17]" value="18" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+    <div class="media-library-item js-media-library-item js-click-to-select views-row"><div class="views-field views-field-rendered-entity"><span class="field-content media-library-item__content"><article>
+      <div class="media-library-item__preview js-media-library-item-preview js-click-to-select-trigger">
+      
+            <div class="field field--name-thumbnail field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/medium/public/2018-08/dsc_0324_37558155801_o_0.jpg?itok=br3I27Ch" width="220" height="147" alt="Thumbnail" title="dsc_0324_37558155801_o.jpg" typeof="foaf:Image" class="image-style-medium" />
+
+
+</div>
+      
+    </div>
+        <div class="media-library-item__attributes">
+      <div class="media-library-item__name">
+        <a href="/media/19" rel="bookmark">dsc_0324_37558155801_o.jpg</a>
+      </div>
+    </div>
+  </article>
+</span></div><div class="views-field views-field-media-library-select-form js-click-to-select-checkbox"><span class="field-content"><div class="js-form-item form-item js-form-type-checkbox form-type-checkbox js-form-item-media-library-select-form-18 form-item-media-library-select-form-18 form-no-label">
+      <label for="edit-media-library-select-form-18" class="visually-hidden">Select dsc_0324_37558155801_o.jpg</label>
+        <input data-drupal-selector="edit-media-library-select-form-18" type="checkbox" id="edit-media-library-select-form-18" name="media_library_select_form[18]" value="19" class="form-checkbox" />
+
+        </div>
+</span></div></div>
+<input autocomplete="off" data-drupal-selector="form-ohafejr5vkj7dmudf6sgeprgi92kk9gjmibd8xxrv70" type="hidden" name="form_build_id" value="form-ohafEjR5vKJ7dMUdF6SGepRGI92kk9gJmibd8XXrV70" />
+<input data-drupal-selector="edit-views-form-media-library-widget" type="hidden" name="form_id" value="views_form_media_library_widget" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Select media" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+</div>
+    </div>
+  
+      
+          </div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+                            
+                        </div>
+                        <!-- EOF:#content-wrapper -->
+
+                    </div>
+                    <!-- EOF:#main -->
+
+                </section>
+
+                
+            </div>
+
+        </div>
+    </div>
+    <!-- EOF:#main-content -->
+
+    
+</div>
+<!-- EOF:#page -->
+
+
+<footer id="subfooter" class="clearfix">
+    <div class="container">
+
+        <!-- #subfooter-inside -->
+        <div id="subfooter-inside" class="clearfix">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- #subfooter-left -->
+                    <div class="subfooter-area">
+                    
+                    
+                    </div>
+                    <!-- EOF: #subfooter-left -->
+                </div>
+            </div>
+        </div>
+        <!-- EOF: #subfooter-inside -->
+
+    </div>
+</footer>
+<!-- EOF:#subfooter -->
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","ajaxPageState":{"libraries":"bootstrap_business\/bootstrap,bootstrap_business\/bootstrap-cdn,bootstrap_business\/global-styling,bootstrap_business\/toggle,classy\/base,classy\/messages,core\/html5shiv,core\/normalize,media_library\/view,system\/admin,views\/views.ajax,views\/views.module","theme":"tedbow_theme","theme_token":null},"ajaxTrustedUrl":{"\/admin\/content\/media-widget":true,"\/admin\/content\/media-widget?ajax_form=1":true},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:358addc8cee415c05600a46fec0d467f29ffbd77c8707f8454764742c7b6090b":{"view_name":"media_library","view_display_id":"widget","view_args":"","view_path":"\/admin\/content\/media-widget","view_base_path":"admin\/content\/media-widget","view_dom_id":"358addc8cee415c05600a46fec0d467f29ffbd77c8707f8454764742c7b6090b","pager_element":0}}},"ajax":{"edit-submit":{"url":"\/admin\/content\/media-widget?ajax_form=1","callback":["Drupal\\media_library\\Plugin\\views\\field\\MediaLibrarySelectForm","updateWidget"],"event":"mousedown","keypress":true,"prevent":"click","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Select media"}}},"user":{"uid":0,"permissionsHash":"426343788fc9eb5987b27751a8cab715fdc3d096b549b3de73d3d93cb10389dd"}}</script>
+<script src="/core/assets/vendor/domready/ready.min.js?v=1.0.8"></script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.2.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.0"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=8.6.0-rc1"></script>
+<script src="/core/misc/drupal.js?v=8.6.0-rc1"></script>
+<script src="/core/misc/drupal.init.js?v=8.6.0-rc1"></script>
+<script src="/themes/contrib/bootstrap_business/bootstrap/js/bootstrap.min.js?v=8.6.0-rc1"></script>
+<script src="/themes/contrib/bootstrap_business/js/custom/toggle.js?v=8.6.0-rc1"></script>
+<script src="/core/assets/vendor/jquery-form/jquery.form.min.js?v=4.22"></script>
+<script src="/core/misc/progress.js?v=8.6.0-rc1"></script>
+<script src="/core/misc/ajax.js?v=8.6.0-rc1"></script>
+<script src="/core/modules/views/js/base.js?v=8.6.0-rc1"></script>
+<script src="/core/modules/views/js/ajax_view.js?v=8.6.0-rc1"></script>
+<script src="/core/modules/media_library/js/media_library.click_to_select.js?v=8.6.0-rc1"></script>
+<script src="/core/modules/media_library/js/media_library.view.js?v=8.6.0-rc1"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/libraries/masonry/masonry.pkgd.min.js?v="></script>
+<script src="/libraries/imagesloaded/imagesloaded.pkgd.min.js?v="></script>
+
+  </body>
+</html>
